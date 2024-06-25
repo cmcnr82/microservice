@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 public class controller {
 
-    @GetMapping("/")
+    @GetMapping("/hello")
     public ResponseEntity<String> get() {
         return ResponseEntity.ok("Hello from Railway + Spring!");
     }
